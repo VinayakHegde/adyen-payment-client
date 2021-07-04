@@ -1,0 +1,36 @@
+.PaymentMethods {
+  display: grid;
+  gap: 20px;
+}
+.PaymentMethods-container {
+  border-top: 1px solid #e6e9eb;
+  display: grid;
+  padding-top: 20px;
+  gap: 20px;
+}
+.PaymentMethods-item {
+  background: #f7f8f9;
+  border-radius: 6px;
+  display: grid;
+  border: 1px solid #f7f8f9;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.PaymentMethods-selected {
+  background: #5fa8f1;
+  gap: 20px;
+  cursor: default;
+}
+
+.PaymentMethods-selected .PaymentMethods-name {
+  color: white;
+  font-weight: 900;
+}
+.PaymentMethods-selected .PaymentMethods-name:before {
+  content: '✔️';
+  font-size: 14px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 3px;
+}
